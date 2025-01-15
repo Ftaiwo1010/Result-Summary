@@ -171,10 +171,10 @@ button.btn:hover {
 
 
 
-@media (min-width: 375px) and (max-width: 540px) {
+@media (max-width: 540px) {
    main {
       flex-direction: column;
-      margin: 10px auto 40px;
+      margin: 20px auto 40px;
    }
    
    
@@ -184,7 +184,7 @@ button.btn:hover {
       padding: 2rem 1rem;
       margin: 0 auto;
       position: relative;
-      top: 25px;
+      top: 50px;
       left: 0;
       z-index: 999;
    }
@@ -217,7 +217,95 @@ button.btn:hover {
 section.summary {
    max-width: 300px;
    margin: auto;
-   padding: 3rem 1.5rem 0.50rem 1rem; 
+   padding: 4rem 1.5rem 0.90rem 1rem; 
+}
+
+
+.summary-info {
+   margin: 1.5rem 0 0 0.50rem; 
+}
+
+
+h2.title {
+  font-size: 1.2rem; 
+}
+
+
+button.btn {
+   padding: 0.70rem 0.70rem;
+   font-size: 1.01rem;
+}
+
+}
+
+
+
+@media (max-width: 414px) {
+   main {
+      flex-direction: column;
+      margin: 0 auto 40px;
+   }
+   
+   
+   .result {
+      max-width: 300px;
+      height: 380px;
+      padding: 2rem 1rem;
+      margin: 0 auto;
+      position: relative;
+      top: 80px;
+      left: 0;
+      z-index: 999;
+   }
+   
+} 
+@media (max-width: 375px) {
+   main {
+      flex-direction: column;
+      margin: 10px auto 40px;
+   }
+   
+   
+   .result {
+      max-width: 300px;
+      height: 380px;
+      padding: 2rem 1rem;
+      margin: 0 auto;
+      position: relative;
+      top: 080px;
+      left: 0;
+      z-index: 999;
+   }
+   
+   
+   div.num-box {
+      max-width: 130px;
+      height: 130px;
+      border-radius: 50%;
+   }
+
+
+   div.num-box h1 {
+      font-size: 2.8rem;
+   }
+   
+   div.num-box + h2 {
+      font-size: 1.3rem; 
+      margin-bottom: 1.5rem;
+   }
+   
+   
+   h2.result-exp + p {
+      max-width: 300px;
+   }
+
+
+   /* Summary section */
+
+section.summary {
+   max-width: 300px;
+   margin: auto;
+   padding: 4rem 1.5rem 0.90rem 1rem; 
 }
 
 
@@ -261,10 +349,54 @@ button.btn {
 } 
 
 
+
+@media (max-width: 412px) {
+   main {
+      flex-direction: column;
+      margin: 0 auto 40px;
+   }
+   
+   
+   .result {
+      max-width: 300px;
+      height: 380px;
+      padding: 2rem 1rem;
+      margin: 0 auto;
+      position: relative;
+      top: 100px;
+      left: 0;
+      z-index: 999;
+   }
+   
+} 
+
+
 @media (max-width: 390px) {
    main {
       flex-direction: column;
       margin: 0 auto 40px;
+   }
+   
+   
+   .result {
+      max-width: 300px;
+      height: 380px;
+      padding: 2rem 1rem;
+      margin: 0 auto;
+      position: relative;
+      top: 60px;
+      left: 0;
+      z-index: 999;
+   }
+   
+} 
+
+
+
+@media (max-width: 375px) {
+   main {
+      flex-direction: column;
+      margin: 10px auto 40px;
    }
    
    
@@ -279,7 +411,55 @@ button.btn {
       z-index: 999;
    }
    
-} 
+   
+   div.num-box {
+      max-width: 130px;
+      height: 130px;
+      border-radius: 50%;
+   }
+
+
+   div.num-box h1 {
+      font-size: 2.8rem;
+   }
+   
+   div.num-box + h2 {
+      font-size: 1.3rem; 
+      margin-bottom: 1.5rem;
+   }
+   
+   
+   h2.result-exp + p {
+      max-width: 300px;
+   }
+
+
+   /* Summary section */
+
+section.summary {
+   max-width: 300px;
+   margin: auto;
+   padding: 4rem 1.5rem 0.90rem 1rem; 
+}
+
+
+.summary-info {
+   margin: 1.5rem 0 0 0.50rem; 
+}
+
+
+h2.title {
+  font-size: 1.2rem; 
+}
+
+
+button.btn {
+   padding: 0.70rem 0.70rem;
+   font-size: 1.01rem;
+}
+
+}
+
 
 
 @media (max-width: 360px) {
